@@ -1,0 +1,25 @@
+{
+  "name": "semanabackendprojeto",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/marcosrbflores/semanabackendprojeto#readme",
+  "bugs": {
+    "url": "https://github.com/marcosrbflores/semanabackendprojeto/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosrbflores/semanabackendprojeto.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

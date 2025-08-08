@@ -15,9 +15,13 @@ const taskSchema = new mongoose.Schema({
 
     completed: {
         type: Boolean
+    },
+    _id: {
+        type: mongoose.Schema.Types.ObjectId,
+        auto: true
     }
 })
 
 
 
-export default Task
+export default mongoose.model("Task", taskSchema);
